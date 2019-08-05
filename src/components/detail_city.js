@@ -11,12 +11,12 @@ class DetailCity extends React.Component{
                         <div className="card-header">
                         {detail.location.state.monitorId} .- {detail.location.state.city}
                         </div>
-                        <div class="card-body bg-primary text-white">
+                        <div className="card-body bg-primary text-white">
                                   Value of Monitor ID: {detail.location.state.value_monitorId}{<br/>}
                                   Address:{detail.location.state.address}{<br/>}
                                   Latitude:{detail.location.state.latitude}{<br/>}
                                   Longitude:{detail.location.state.longitude}{<br/>}{<br/>}
-                                  <Link to="/"><p class="btn btn-light ">Return</p></Link> 
+                                  <Link to="/"><p className="btn btn-light ">Return</p></Link> 
                         </div>  
             </div>
         );
