@@ -29,7 +29,6 @@ class ListCities extends React.Component{
         if (this.state.isFetch){
           return "loading.."
         }
-        console.log(this.state.values)
         return (
           <div>
           <List data = {this.state.values}/>  
